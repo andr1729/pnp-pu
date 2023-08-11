@@ -8,7 +8,9 @@ Phase Unwrapping (PU) is a critical process in various scientific optical applic
 
 This repository showcases a novel and robust approach based on the Plug-and-Play (PnP) proximal algorithm for unwrapping two-dimensional phase values while simultaneously mitigating noise at each iteration. The method leverages a least-squares formulation centered around local phase differences and reformulates the problem as a partially differentiable equation. Notably, a closed-form solution for one of the subproblems within the PnP framework is obtained by utilizing the fast cosine transform.
 
-![git image](https://github.com/andr1729/pnp-pu/assets/86633420/cabad032-382a-4a83-99e8-f349566ede00)
+<p align="center">
+  <img src="https://github.com/andr1729/pnp-pu/assets/86633420/cabad032-382a-4a83-99e8-f349566ede00" alt="Method Illustration">
+</p>
 
 
 ### Key Features
@@ -25,7 +27,7 @@ To get started with using our method for phase unwrapping and noise reduction, f
 
 1. **Clone the Repository**: Begin by cloning this repository to your local machine using the command:
    ```
-   git clone https://github.com/your-username/phase-unwrapping-pnp.git
+   git clone repo link
    ```
 
 2. **Installation**: Navigate to the repository directory and install the required dependencies using:
