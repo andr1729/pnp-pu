@@ -1,0 +1,16 @@
+clearvars; close all force; clc;
+ 
+densityPeaks = 5;
+szImgPeaks   = 512;
+snr_ = 10;
+[reference, psi] = createPeaksWithNoise(densityPeaks, szImgPeaks, snr_);
+
+snr(re, psi- wrapToPi(reference))
+% figure;
+% subplot(1, 2, 1); imagesc(reference); colorbar; axis image;
+% subplot(1, 2, 2); imagesc(psi); colorbar; axis image;
+
+
+
+
+
