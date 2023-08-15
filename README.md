@@ -29,25 +29,16 @@ To get started with using our method for phase unwrapping and noise reduction, f
    ```
    git clone repo link
    ```
-
-2. **Installation**: Navigate to the repository directory and install the required dependencies using:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. **Examples and Documentation**: Explore the examples provided in the `examples` directory to understand how to use the method with different datasets and noise levels. Refer to the documentation for detailed information on function parameters and usage.
-
-4. **Experiment and Contribute**: Feel free to experiment with the method, apply it to your own datasets, and contribute to the repository by creating pull requests for enhancements or bug fixes.
-
+   
 ### Citing
 
 If you find this method useful in your research or applications, please consider citing our original paper:
 
-*Author(s). "Phase Unwrapping for Phase Imaging using Plug-and-Play Proximal Algorithm." Journal/Conference Name, Year.*
+*Cita cuando salga*
 
 We're excited to share this method with the community and look forward to your contributions and feedback. Happy coding!
 
-*Your Name and Contact Information*
+*Jhon Ramirez - jhon2180076@correo.uis.edu.co*
 
 ---
 
