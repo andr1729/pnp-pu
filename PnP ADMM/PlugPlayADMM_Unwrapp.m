@@ -125,7 +125,7 @@ while(residual>tol&&itr<=max_itr)
 end
 out = v;
 
-% se ecnuentra el valor maximo del psnr 
+% se ecnuentra el valor maximo del Quality Index 
 [maxQ, indxOptimalQ] = max(QAll);
 maxQ;
     
