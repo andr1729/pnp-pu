@@ -21,14 +21,13 @@ This repository showcases a novel and robust approach based on the Plug-and-Play
 - **Code Implementation**: This repository contains the complete code implementation of the proposed method, accompanied by documentation and examples to facilitate easy adoption and experimentation.
 - **High Noise Scenarios**: Our method demonstrates its effectiveness even in scenarios with extremely high noise levels, showcasing its robustness and reliability.
 
-### Getting Started
+### Usage:
 
-To get started with using our method for phase unwrapping and noise reduction, follow these steps:
 
-1. **Clone the Repository**: Begin by cloning this repository to your local machine using the command:
-   ```
-   git clone repo link
-   ```
+- Run the `unwrapp.m` script in the `PnP ADMM` folder. This script performs phase unwrapping process.
+
+- Note: `PeaksCreation` folder contains a function to generate synthetic wrapped peaks images with desired signal to noise ratios, which is useful for testing the algorithm.
+
    
 ### Citing
 
