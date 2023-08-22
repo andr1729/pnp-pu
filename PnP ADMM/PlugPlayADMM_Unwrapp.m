@@ -39,6 +39,8 @@ v           = closedSolution(psi, 0, 0);
 x           = v;    %v;
 u           = zeros(dim);
 residual    = inf;
+vtildeMin = min(v(:));
+vtildeMax = max(v(:)); 
 
 %set function handle for denoiser
 switch method
@@ -79,8 +81,6 @@ while(residual>tol&&itr<=max_itr)
 
     %denoising step
     vtilde = x + u;
-    vtildeMin = min(vtilde(:));
-    vtildeMax = max(vtilde(:)); % 0.48
 
     vtilde = resc01(vtilde);
 
